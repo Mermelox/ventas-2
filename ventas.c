@@ -9,14 +9,14 @@ int main() {
     // Registro del producto
    
     do {
-        printf("\nMenú de Opciones:\n");
+        printf("\nMenu de Opciones:\n");
         printf("1. Registrar producto \n");
-        printf("1. Vender producto\n");
-        printf("2. Reabastecer producto\n");
-        printf("3. Mostrar información del producto\n");
-        printf("4. Mostrar total de ganancias\n");
-        printf("5. Salir\n");
-        printf("Seleccione una opción: ");
+        printf("2. Vender producto\n");
+        printf("3. Reabastecer producto\n");
+        printf("4. Mostrar información del producto\n");
+        printf("5. Mostrar total de ganancias\n");
+        printf("6. Salir\n");
+        printf("Seleccione una opcion: ");
         scanf("%d", &opcion);
  
         switch(opcion) {
